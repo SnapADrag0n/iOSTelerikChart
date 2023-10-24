@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-ios</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <CreatePackage>false</CreatePackage>
+    <CodesignProvision>iOS Team Provisioning Profile: com.companyname.infy.com</CodesignProvision>
+    <CodesignKey>Apple Development: akashishrivastav0204@gmail.com (5795BF26A9)</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <CreatePackage>false</CreatePackage>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="alertIcon.png" />
+    <None Remove="ic_service_outage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="alertIcon.png" />
+    <BundleResource Include="ic_service_outage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Telerik.iOS">
+      <HintPath>..\..\APS\Progress\Telerik_UI_for_NET_MAUI_6.1.0\Binaries\Net6\iOS\Telerik.iOS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

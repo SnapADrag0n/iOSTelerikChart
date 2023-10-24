@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{51D7F322-72D6-40E2-AD59-500CED862198}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ChartPOC PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.97B3264B-186A-46D5-A157-0927D2F6C67E" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChartPOC/DetailViewController.cs">
+    <Files>
+      <File FileName="ChartPOC/DetailViewController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ChartPOC" expanded="True">
+            <Node name="ChartPOC" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="AssemblyDependencies" expanded="True" />
+              </Node>
+              <Node name="DetailViewController.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
